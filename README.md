@@ -7,3 +7,5 @@
 > daisyUI
 
 > React Router
+
+> React Icons 
