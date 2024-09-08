@@ -7,3 +7,7 @@
 > daisyUI
 
 > React Router
+
+> React Icons 
+
+> React-toastify
