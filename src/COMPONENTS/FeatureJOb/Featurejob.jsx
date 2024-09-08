@@ -5,6 +5,9 @@ const Featurejob = () => {
 
     const [jobs, setJobs] = useState([]);
     
+    const [dataLength, setDatalength] = useState(4);
+     
+    
     useEffect (() => {
         fetch('jobs.json')
         .then( res => res.json())
@@ -21,8 +24,13 @@ const Featurejob = () => {
 
             <div className='grid grid-cols-2 gap-6 ' >
                 {
-                  jobs.map(job => <Job key={job.id}  job={job} ></Job>)  
+                  jobs.slice(0, dataLength).map(job => <Job key={job.id}  job={job} ></Job>)  
                 }
+            </div>
+
+            <div className={ dataLength === jobs.length && 'hidden'} >
+                <button onClick={() => setDatalength(jobs.length)}
+                className='btn btn-primary' >Show All Jobs</button>
             </div>
 
 
