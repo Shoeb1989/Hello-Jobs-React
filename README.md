@@ -2,6 +2,8 @@
 
 # Components Using:
 
+>hooks: useLocation/useEffect/Usestate/
+
 >Tailwind CSS
 
 > daisyUI
