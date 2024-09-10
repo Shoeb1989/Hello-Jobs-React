@@ -9,7 +9,7 @@ const Job = ({ job }) => {
     return (
         <div className="card card-compact bg-base-100 shadow-xl">
             <figure>
-                <img
+                <img className='w-32 h-24 p-2'
                     src={logo}
                     alt="Shoes" />
             </figure>
