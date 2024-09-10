@@ -43,7 +43,8 @@ const Header = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Start Apply</a>
+                <NavLink  to='/jobs' className="btn">Apply</NavLink>
+            
             </div>
         </div>
     );

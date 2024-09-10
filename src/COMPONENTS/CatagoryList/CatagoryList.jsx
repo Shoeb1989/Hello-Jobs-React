@@ -11,7 +11,7 @@ const CategoryList = () => {
     },[])
     return (
         <div>
-            <h2 className='text-center text-4xl text-black font-semibold'>Job Category List</h2>
+            <h2 className='text-center text-4xl text-black font-semibold mt-6'>Job Category List</h2>
             <p className='text-center text-base text-black mt-3'>Explore thousands of job opportunities with all the information you need. Its your future</p>
             <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-5">
                 {
