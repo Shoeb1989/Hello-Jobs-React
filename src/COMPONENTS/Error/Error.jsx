@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import ErrorPage from '../../img/Lost Tourist-big.png'
 
 const Error = () => {
     return (
@@ -7,7 +8,7 @@ const Error = () => {
             <div className='text-center'>
                 <h2 className='text-7xl mb-4'>404 Oops!!!</h2>
                 <div>
-                    <img className="h-36 mx-auto" src="/src/img/Lost Tourist-big.png" alt="Lost Tourist" />
+                    <img className="h-36 mx-auto" src={ErrorPage} alt="Lost Tourist" />
                 </div>
 
                  <Link className='text-7xl mt-4 inline-block' to="/"> Go Back...</Link>

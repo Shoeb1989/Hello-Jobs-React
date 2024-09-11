@@ -1,4 +1,5 @@
 import React from 'react';
+import BannerImage from "../../img/working.png"
 
 const Banner = () => {
     return (
@@ -21,7 +22,7 @@ const Banner = () => {
             
                 <div className="relative w-full overflow-hidden lg:order-1 h-96 lg:h-auto lg:w-5/12">
                 <div className="absolute inset-0">
-                    <img className="object-cover w-full h-full scale-150" src="/src/img/working.png" alt="Working" />
+                    <img className="object-cover w-full h-full scale-150" src={BannerImage} alt="Working" />
                 </div>
                 <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
                 <div className="absolute bottom-0 left-0">
