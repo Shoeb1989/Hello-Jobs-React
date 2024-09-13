@@ -21,7 +21,7 @@ const JobDetails = () => {
         toast("Apply Done");
     }
     return (
-        <div className='my-20'>
+        <div className='my-20 text-black '>
             <h2 className="text-4xl py-2 text-bold">Job Details: {job.job_title}</h2>
             <div className='grid gap-4 md:grid-cols-4' >
                 <div className="border md:col-span-3">
