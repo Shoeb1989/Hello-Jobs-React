@@ -50,7 +50,7 @@ const AppliedJobs = () => {
 
     }, [jobs])
     return (
-        <div>
+        <div className='bg-white' >
             <h2 className="text-2xl">Jobs I Applied: {appliedJobs.length}</h2>
             <details className="dropdown mb-32">
                 <summary className="m-1 btn">Job Type</summary>

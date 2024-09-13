@@ -3,7 +3,7 @@ import BannerImage from "../../img/working.png"
 
 const Banner = () => {
     return (
-     <div className="relative my-0">
+     <div className="relative my-0  bg-white ">
         <div className="flex flex-col lg:flex-row lg:items-stretch lg:min-h-[800px]">
         
             <div className="relative flex items-center justify-center w-full lg:order-2 lg:w-7/12">
