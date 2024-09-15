@@ -16,4 +16,4 @@
 
 
 
-For Preview got to : 
+For Preview got to : https://hello-job-shoeb.netlify.app/
